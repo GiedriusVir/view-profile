@@ -7,23 +7,64 @@ body, body * {
 
 body {
     background-color: #E0E2E1;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Abel', sans-serif;
+    width: 100%;
 }
 
 .container {
     display: inline-block;
-    width: 700px;
-    margin: 80px calc((100% - 700px) / 2);
+    width: 900px;
+    margin: 80px calc((100% - 900px) / 2);
+    background-color: #EFF1F0;
+    text-transform: uppercase;
+    padding: 20px;
+    position: relative;
 }
     .container > .text {
         display: inline-block;
         width: 30%;
-        float: left;
-        background-color: red;
+        text-align: center;
+
+        position: absolute;
+        top: 20px;
+        bottom: 20px;
+        left: 0;
     }
+
+        .container h1 {
+            display: inline-block;
+            width: 100%;
+            font-size: 30px;
+            letter-spacing: 5px;
+
+
+            position: absolute;
+            left: 0;
+            top: 110px;
+        }
+
+        .container  p {
+            display: inline-block;
+            width: 100%;
+            font-size: 10px;
+            letter-spacing: 4px;
+            position: absolute;
+            left: 0;
+            top: 150px;
+        }
+
+        .container  a {
+            display: inline-block;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 300px;
+        }
     
     .container > img {
         display: inline-block;
         width: 70%;
         background-color: green;
-        /* float: left; */
+        float: right;
     }
