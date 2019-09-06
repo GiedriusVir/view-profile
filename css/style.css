@@ -20,6 +20,7 @@ body {
     text-transform: uppercase;
     padding: 20px;
     position: relative;
+    box-shadow: 6px 5px 23px -6px rgba(181,175,181,1);
 }
     .container > .text {
         display: inline-block;
