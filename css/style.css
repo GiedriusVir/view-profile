@@ -17,6 +17,7 @@ body {
     width: 900px;
     margin: 80px calc((100% - 900px) / 2);
     background-color: #EFF1F0;
+    color: #252525;
     text-transform: uppercase;
     padding: 20px;
     position: relative;
@@ -57,10 +58,20 @@ body {
 
         .container  a {
             display: inline-block;
-            width: 100%;
+            width: 40px;
+            height: 40px;
+            color: #252525;
+            padding: 20px;
+
             position: absolute;
             left: 0;
-            top: 300px;
+            top: 260px;
+        }
+
+        .container  a:hover {
+            color: #EFF1F0;
+            background-color: #252525;
+            border-radius: 30px;
         }
     
     .container > img {
