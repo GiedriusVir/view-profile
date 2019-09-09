@@ -1,3 +1,3 @@
 # view-profile
 
-https://giedriusvir.github.io/cubix/
+https://giedriusvir.github.io/view-profile/
